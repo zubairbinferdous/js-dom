@@ -1,0 +1,12 @@
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#body{
+    transition: all liner 10s;
+}
+
+.important{
+    color: rgb(158, 100, 12);
+}
