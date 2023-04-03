@@ -1,3 +1,5 @@
+// getElementsByTagName 
+
 let element = document.getElementsByTagName('li');
 for (const data of element) {
     data.style.color = 'black';
@@ -14,7 +16,10 @@ for( let h1 of heading){
     console.log(h1.innerText);
 };
 
-document.getElementById('btn').addEventListener('mouseenter', function(){
+
+// getElementById 
+
+document.getElementById('btn').addEventListener('click', function(){
    document.getElementById('body').style.backgroundColor = 'red';
    console.log('hello world click me for background color');
 });
@@ -24,17 +29,22 @@ document.getElementById('body').addEventListener('mouseover', function(){
    console.log('hello world click me for background color');
 });
 
+// getElementsByClassName 
 
 let palces = document.getElementsByClassName('important');
 for (const key in palces) {
     console.log(key);
 }
 
+let change =  document.getElementById('useId');
+change.innerText = 'this text use as javascript';
+change.style.fontSize = '120px';
+
 for (const item of palces) {
     console.log(item.innerText);
 }
 
 
-
+// querySelector 
 
 
