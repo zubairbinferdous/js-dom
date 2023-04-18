@@ -39,6 +39,8 @@ for (const key in palces) {
 let change =  document.getElementById('useId');
 change.innerText = 'this text use as javascript';
 change.style.fontSize = '60px';
+let att = change.getAttribute('id');
+console.log(att);
 
 for (const item of palces) {
     console.log(item.innerText);
@@ -58,7 +60,40 @@ for (const li of query) {
 let hello = document.querySelector(".li li");
 console.log(hello);
 
+////// google browers ///////////
+
+const title = document.getElementById("headerr");
+
+title.getAttribute('class')
+
+// 'hello ok main sub-place'
 
 
+title.classList
 
+// DOMTokenList(4) ['hello', 'ok', 'main', 'sub-place', value: 'hello ok main sub-place'];
+
+title.classList.add('helloTo')
+
+title.classList
+// DOMTokenList(5) ['hello', 'ok', 'main', 'sub-place', 'helloTo', value: 'hello ok main sub-place helloTo']
+
+title.classList.remove('main');
+
+title.classList;
+// DOMTokenList(4) ['hello', 'ok', 'sub-place', 'helloTo', value: 'hello ok sub-place helloTo']
+title.classList.add('amiToMoreJabo');
+
+title.setAttribute('title' , ' hello world to me ');
+
+let data = document.getElementById("headerr");
+console.log(data.innerHTML);
+console.log(data.innerText); 
+
+const style = document.querySelector('section');
+style.style.border = '2px solid red';
+style.style.padding = '30px';
+style.style.fontSize = "20px";
+style.style.borderRadius = "10px";
+style.classList.add('text-center');
 

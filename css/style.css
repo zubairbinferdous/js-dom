@@ -10,3 +10,7 @@ ul{
 .important{
     color: rgb(158, 100, 12);
 }
+
+.text-center{
+    text-align: center;
+}
